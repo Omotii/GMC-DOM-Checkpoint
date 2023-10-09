@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript GMC</title>
+        <link rel="stylesheet" href="mystyles.css">
+        <script src="https://kit.fontawesome.com/dc48caaa9e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="topmost-container">
+                <span><a href="#">Sell on Martins Express</a></span>
+                <div class="right-top-most-container">
+                    <img src='myimages/milliscents.PNG' alt="company-logo">
+                    <span class="other-services" title="Food Services"><a href="#">Food</a></span>
+                    <span class="other-services" title="Martin's Pay"><a href="#">Pay</a></span>
+                    <span class="other-services" title="Logistic Services"><a href="#">Logistics</a></span>
+                </div>
+            </div>            
+        </header>
+        <nav>
+            <img src="myimages/johnblack.png" alt="company-logo">     
+            <div class="suggestion">
+                <input type="text" placeholder="How can we serve you better" id="suggestion-input">
+                <button class="suggestion-button" id="suggestbtn">Enter Suggestions</button>
+            </div>
+            <ul>
+                <li class="icons"><i class="fa-regular fa-user me"></i> Accounts</li>
+                <li class="icons"><i class="fa-solid fa-question me"></i>Help</li>
+                <li class="active-page icons"><i class="fa-solid fa-cart-shopping me"></i></i>Cart</li>
+            </ul>
+        </nav>
+        <main>
+            <div class="body-background-image"></div>
+            <div class="body-background-deco"></div>
+            <div class="main-content1">
+            <div class="main-content">
+                <h1>Cart (4)</h1>
+                <div class="cart-container">
+                    <div class="cart-item-container">
+                        <div class="cart-image">
+                            <img src="myimages/T-Shirts.jpg" alt="t-shirts">
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-item-description">
+                                <h3>T-Shirts +Shorts 100% Cotton</h3>
+                                <span class="cart-desc">Unisex</span><span class="cart-desc">In Stock</span>
+                                <button class="remove-btn" id="remove-btn1"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            </div>
+                            <span class="add-favorites"><i class="fa-solid fa-heart hearts" title="add to favorites" id="heart1"></i></i></span>
+                            <div class="price-area">
+                                <h3>Price</h3>
+                                <p class="unit-price">$50</p>
+                                <div class="increment-container">
+                                    <span class="decrement">-</span><span class="quantity-change">1</span><span class="increment">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-container">
+                    <div class="cart-item-container">
+                        <div class="cart-image">
+                            <img src="myimages/long sleeve.jpg" alt="long sleeve">
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-item-description">
+                                <h3>Long Sleeve Turtleneck Casual Top</h3>
+                                <span class="cart-desc">Unisex (Fits all)</span><span class="cart-desc">In Stock</span>
+                                <button class="remove-btn" id="remove-btn1"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            </div>
+                            <span class="add-favorites"><i class="fa-solid fa-heart hearts" title="add to favorites" id="heart2"></i></i></span>
+                            <div class="price-area">
+                                <h3>Price</h3>
+                                <p class="unit-price">$45</p>
+                                <div class="increment-container">
+                                    <span class="decrement">-</span><span class="quantity-change">1</span><span class="increment">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-container">
+                    <div class="cart-item-container">
+                        <div class="cart-image">
+                            <img src="myimages/digitalwatch.jpg" alt="men's watch">
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-item-description">
+                                <h3>Digital Sport Watch Men Sports Watch</h3>
+                                <span class="cart-desc">Men's Watch</span><span class="cart-desc">Few units left</span>
+                                <button class="remove-btn" id="remove-btn1"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            </div>
+                            <span class="add-favorites"><i class="fa-solid fa-heart hearts" title="add to favorites" id="heart3"></i></i></span>
+                            <div class="price-area">
+                                <h3>Price</h3>
+                                <p class="unit-price">$28</p>
+                                <div class="increment-container">
+                                    <span class="decrement">-</span><span class="quantity-change">1</span><span class="increment">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-container">
+                    <div class="cart-item-container">
+                        <div class="cart-image">
+                            <img src="myimages/men's canvas.jpg" alt="canvas">
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-item-description">
+                                <h3>Men's Smart fit Canvas </h3>
+                                <span class="cart-desc">Monowear</span><span class="cart-desc">Pre-order Sale</span>
+                                <button class="remove-btn" id="remove-btn1"><i class="fa-solid fa-trash-can"></i> Remove</button>
+                            </div>
+                            <span class="add-favorites"><i class="fa-solid fa-heart hearts" title="add to favorites" id="heart4"></i></i></span>
+                            <div class="price-area">
+                                <h3>Price</h3>
+                                <p class="unit-price">$65</p>
+                                <div class="increment-container">                                    
+                                    <span class="decrement">-</span><span class="quantity-change">1</span><span class="increment">+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <footer>
+                    <p>New to our Services?</p>
+                    <form method="get">
+                        <label for="email">Subscribe to our newsletter</label>
+                        <div class="email-container">
+                            <input type="text" name="email" value="Enter E-mail here">
+                            <button>Male</button>
+                            <button>Female</button>
+                        </div>
+                    </form>
+                </footer>            
+            </div>
+            <aside>
+                <div class="aside">
+                    <h3>Cart Summary</h3>
+                    <div class="total-container">
+                        <p>Total</p>
+                    <p>$<span class="total-amount"> 188</span></p>
+                    </div>
+                    <div class="btn-container">
+                        <button class="total-price-btn">Click to Pay</button>
+                    </div>
+                </div>
+            
+                <div class="aside users-suggestions" id="enter-suggestion">                    
+                    <h3>Your Suggestions are here</h3>
+                    <p>Thanks for your comment/suggestion(s)</p>
+                </div>
+            </aside>
+        </main>      
+        <script type="text/Javascript" src="myscript.js"></script>
+    </body>
+</html>
